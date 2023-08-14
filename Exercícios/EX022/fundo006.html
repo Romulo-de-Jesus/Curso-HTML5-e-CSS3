@@ -3,22 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
-            background-color: black;
+            /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; */
+            background: black url("imagens/wallpaper002.jpg") center center/cover no-repeat fixed;
         }
         main{
             background-color: beige;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             padding:10px;
             border: 1px black solid;
-            
+
         }
+
+        /* Shorthand - BackGround 
+        color
+        image
+        position
+        repeat
+        size
+        attachment
+        
+        
+        */
+
+        
     </style>
 </head>
 <body>
